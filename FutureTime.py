@@ -16,10 +16,11 @@ def main():
 
   #TODO:
   #Ask user for hours
+  hours = input("Provide a number of hours: ")
   #Ask user for minutes
-
+  minutes = input("Provide a number of minutes: ")
   #Calculate the time after the user-supplied time has passed.
-
+  
   #Do not use any if statements in calculating the time.
 
   #Output the future time in standard format "HH:MM"

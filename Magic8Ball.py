@@ -21,10 +21,10 @@ def main():
  
 
   #Answer question randomly with one of the options from your earlier list.
-  num = random.random()
-  num = num * 1000
-  num = int(num)
-  num = num % 20
+  num = random.random() # decimal 0-1
+  num = num * 1000 # number 0 - 999 with decimals
+  num = int(num) # no more decimals
+  num = num % 20 # number between 0 - 19
 
   question = input("Ask me a yes or no question: ")
   print(answers[num])
